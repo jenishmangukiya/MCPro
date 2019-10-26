@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MusicDBModelStoreContainer" CdmEntityContainer="MusicDBEntities">
+    <EntitySetMapping Name="Playlists">
+      <EntityTypeMapping TypeName="MusicDBModel.Playlists">
+        <MappingFragment StoreEntitySet="Playlists">
+          <ScalarProperty Name="pid" ColumnName="pid" />
+          <ScalarProperty Name="uid" ColumnName="uid" />
+          <ScalarProperty Name="p_name" ColumnName="p_name" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="sid_arr" ColumnName="sid_arr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Songs">
+      <EntityTypeMapping TypeName="MusicDBModel.Songs">
+        <MappingFragment StoreEntitySet="Songs">
+          <ScalarProperty Name="sid" ColumnName="sid" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="s_name" ColumnName="s_name" />
+          <ScalarProperty Name="r_date" ColumnName="r_date" />
+          <ScalarProperty Name="art_name" ColumnName="art_name" />
+          <ScalarProperty Name="genre" ColumnName="genre" />
+          <ScalarProperty Name="album_name" ColumnName="album_name" />
+          <ScalarProperty Name="song_link" ColumnName="song_link" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="MusicDBModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="MusicDBModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="uid" ColumnName="uid" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="f_name" ColumnName="f_name" />
+          <ScalarProperty Name="l_name" ColumnName="l_name" />
+          <ScalarProperty Name="e_mail" ColumnName="e_mail" />
+          <ScalarProperty Name="role" ColumnName="role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

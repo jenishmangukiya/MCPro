@@ -1,0 +1,14 @@
+C:\Users\Jenish\source\repos\MCPro\MCPro.DB\bin\Debug\MCPro.DB.dll.config
+C:\Users\Jenish\source\repos\MCPro\MCPro.DB\bin\Debug\MCPro.DB.dll
+C:\Users\Jenish\source\repos\MCPro\MCPro.DB\bin\Debug\MCPro.DB.pdb
+C:\Users\Jenish\source\repos\MCPro\MCPro.DB\bin\Debug\EntityFramework.dll
+C:\Users\Jenish\source\repos\MCPro\MCPro.DB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jenish\source\repos\MCPro\MCPro.DB\bin\Debug\MCProj.Models.dll
+C:\Users\Jenish\source\repos\MCPro\MCPro.DB\bin\Debug\MCProj.Models.pdb
+C:\Users\Jenish\source\repos\MCPro\MCPro.DB\bin\Debug\EntityFramework.xml
+C:\Users\Jenish\source\repos\MCPro\MCPro.DB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jenish\source\repos\MCPro\MCPro.DB\obj\Debug\MCPro.DB.csprojAssemblyReference.cache
+C:\Users\Jenish\source\repos\MCPro\MCPro.DB\obj\Debug\MCPro.DB.csproj.CoreCompileInputs.cache
+C:\Users\Jenish\source\repos\MCPro\MCPro.DB\obj\Debug\MCPro.DB.csproj.CopyComplete
+C:\Users\Jenish\source\repos\MCPro\MCPro.DB\obj\Debug\MCPro.DB.dll
+C:\Users\Jenish\source\repos\MCPro\MCPro.DB\obj\Debug\MCPro.DB.pdb

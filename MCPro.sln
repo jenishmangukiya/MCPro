@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCPro", "MCPro\MCPro.csproj", "{9BECB10E-6045-4714-882A-E5D6DE4CFB11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCPro.DB", "MCPro.DB\MCPro.DB.csproj", "{743C2631-99CA-422B-8EE8-FBE610825350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCProj.Models", "MCProj.Models\MCProj.Models.csproj", "{74310A2A-ED33-4F84-A471-FEAF6B988D4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BECB10E-6045-4714-882A-E5D6DE4CFB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BECB10E-6045-4714-882A-E5D6DE4CFB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BECB10E-6045-4714-882A-E5D6DE4CFB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BECB10E-6045-4714-882A-E5D6DE4CFB11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{743C2631-99CA-422B-8EE8-FBE610825350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{743C2631-99CA-422B-8EE8-FBE610825350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{743C2631-99CA-422B-8EE8-FBE610825350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{743C2631-99CA-422B-8EE8-FBE610825350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74310A2A-ED33-4F84-A471-FEAF6B988D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74310A2A-ED33-4F84-A471-FEAF6B988D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74310A2A-ED33-4F84-A471-FEAF6B988D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74310A2A-ED33-4F84-A471-FEAF6B988D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52437DE4-53C9-4F62-80CD-7699A3E58B7D}
+	EndGlobalSection
+EndGlobal

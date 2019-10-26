@@ -1,0 +1,84 @@
+﻿@model MCProj.Models.SongsModel
+
+@{
+    ViewBag.Title = "Song";
+    Layout = "~/Views/Shared/_Layout_User.cshtml";
+}
+
+<h2>Song</h2>
+
+<div>
+
+    <h4>SongsModel</h4>
+    <hr />
+
+    <div class="row">
+        <div class="col-xs-4">
+            <a href="#" class="thumbnail">
+                @{
+                    var link = Model.Song_link;
+                    String[] id = link.Split('=');
+                    var Link = "https://img.youtube.com/vi/" + id[1] + "/0.jpg";
+                }
+                <img src="@Link">
+            </a>
+        </div>
+
+        <div class="col-xs-8">
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.S_name)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.S_name)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.R_date)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.R_date)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Art_name)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Art_name)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Genre)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Genre)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Album_name)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Album_name)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Song_link)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Song_link)
+                </dd>
+
+            </dl>
+        </div>
+    </div>
+
+</div>
+<p>
+    @Html.ActionLink("Back to Song List", "BrowseSongs")
+</p>

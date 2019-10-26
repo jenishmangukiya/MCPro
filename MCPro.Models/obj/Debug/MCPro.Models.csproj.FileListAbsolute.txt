@@ -1,0 +1,6 @@
+C:\Users\Jenish\source\repos\MCPro\MCPro.Models\bin\Debug\MCPro.Models.dll
+C:\Users\Jenish\source\repos\MCPro\MCPro.Models\bin\Debug\MCPro.Models.pdb
+C:\Users\Jenish\source\repos\MCPro\MCPro.Models\obj\Debug\MCPro.Models.csprojAssemblyReference.cache
+C:\Users\Jenish\source\repos\MCPro\MCPro.Models\obj\Debug\MCPro.Models.csproj.CoreCompileInputs.cache
+C:\Users\Jenish\source\repos\MCPro\MCPro.Models\obj\Debug\MCPro.Models.dll
+C:\Users\Jenish\source\repos\MCPro\MCPro.Models\obj\Debug\MCPro.Models.pdb
