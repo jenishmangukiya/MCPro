@@ -50,5 +50,24 @@ namespace MCPro.DB.DbOperations
                     return 0; // not valid
             }
         }
+
+        //Get user info
+        public UsersModel GetInfo(string email)
+        {
+            using (var context = new MusicDBEntities())
+            {
+                Users u = context.Users.Where(x => x.Email == email).FirstOrDefault();
+
+                UsersModel um = new UsersModel()
+                {
+                    Fname = u.Fname,
+                    Lname=u.Lname,
+                    Email=u.Email,
+                    Pwd=u.Pwd
+                };
+
+                return um;
+            }
+        }
     }
 }

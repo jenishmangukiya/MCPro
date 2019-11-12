@@ -25,10 +25,16 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-left">
                     <li>@Html.ActionLink("Browse Songs", "BrowseSongs", "User")</li>
-                    <li>@Html.ActionLink("My PlayLists", "Playlists", "User")</li>
+                    <li>@Html.ActionLink("My PlayLists", "MyPlaylists", "User")</li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li>@Html.ActionLink(@User.Identity.Name, "MyProfile", "User")</li>
+                    @{ 
+                        if(User.Identity.IsAuthenticated)
+                        {
+                            <li>@Html.ActionLink(@User.Identity.Name, "MyProfile", "User")</li>
+                        }
+                    }
+                    
                     <li>@Html.ActionLink("Logout", "Logout", "User")</li>
                 </ul>
             </div>

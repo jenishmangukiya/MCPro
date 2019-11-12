@@ -54,6 +54,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DbOperations\ModelFactory.cs" />
+    <Compile Include="DbOperations\PlaylistsRepo.cs" />
     <Compile Include="DbOperations\SongsRepo.cs" />
     <Compile Include="DbOperations\UsersRepo.cs" />
     <Compile Include="MyModel.Context.cs">

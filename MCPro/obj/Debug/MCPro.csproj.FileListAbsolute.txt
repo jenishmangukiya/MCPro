@@ -48,6 +48,8 @@ C:\Users\Jenish\source\repos\MCPro\MCPro\bin\roslyn\vbc.rsp
 C:\Users\Jenish\source\repos\MCPro\MCPro\bin\roslyn\VBCSCompiler.exe
 C:\Users\Jenish\source\repos\MCPro\MCPro\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Jenish\source\repos\MCPro\MCPro\bin\Antlr3.Runtime.dll
+C:\Users\Jenish\source\repos\MCPro\MCPro\bin\EntityFramework.dll
+C:\Users\Jenish\source\repos\MCPro\MCPro\bin\EntityFramework.SqlServer.dll
 C:\Users\Jenish\source\repos\MCPro\MCPro\bin\MCPro.DB.dll
 C:\Users\Jenish\source\repos\MCPro\MCPro\bin\MCProj.Models.dll
 C:\Users\Jenish\source\repos\MCPro\MCPro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
@@ -61,10 +63,11 @@ C:\Users\Jenish\source\repos\MCPro\MCPro\bin\System.Web.WebPages.Deployment.dll
 C:\Users\Jenish\source\repos\MCPro\MCPro\bin\System.Web.WebPages.dll
 C:\Users\Jenish\source\repos\MCPro\MCPro\bin\System.Web.WebPages.Razor.dll
 C:\Users\Jenish\source\repos\MCPro\MCPro\bin\WebGrease.dll
-C:\Users\Jenish\source\repos\MCPro\MCPro\bin\EntityFramework.dll
 C:\Users\Jenish\source\repos\MCPro\MCPro\bin\MCPro.DB.pdb
 C:\Users\Jenish\source\repos\MCPro\MCPro\bin\MCPro.DB.dll.config
 C:\Users\Jenish\source\repos\MCPro\MCPro\bin\MCProj.Models.pdb
+C:\Users\Jenish\source\repos\MCPro\MCPro\bin\EntityFramework.xml
+C:\Users\Jenish\source\repos\MCPro\MCPro\bin\EntityFramework.SqlServer.xml
 C:\Users\Jenish\source\repos\MCPro\MCPro\bin\System.Web.Helpers.xml
 C:\Users\Jenish\source\repos\MCPro\MCPro\bin\System.Web.Mvc.xml
 C:\Users\Jenish\source\repos\MCPro\MCPro\bin\System.Web.Optimization.xml
@@ -75,11 +78,8 @@ C:\Users\Jenish\source\repos\MCPro\MCPro\bin\System.Web.WebPages.Razor.xml
 C:\Users\Jenish\source\repos\MCPro\MCPro\bin\Newtonsoft.Json.xml
 C:\Users\Jenish\source\repos\MCPro\MCPro\bin\Antlr3.Runtime.pdb
 C:\Users\Jenish\source\repos\MCPro\MCPro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Jenish\source\repos\MCPro\MCPro\bin\EntityFramework.xml
 C:\Users\Jenish\source\repos\MCPro\MCPro\obj\Debug\MCPro.csprojAssemblyReference.cache
 C:\Users\Jenish\source\repos\MCPro\MCPro\obj\Debug\MCPro.csproj.CoreCompileInputs.cache
 C:\Users\Jenish\source\repos\MCPro\MCPro\obj\Debug\MCPro.csproj.CopyComplete
 C:\Users\Jenish\source\repos\MCPro\MCPro\obj\Debug\MCPro.dll
 C:\Users\Jenish\source\repos\MCPro\MCPro\obj\Debug\MCPro.pdb
-C:\Users\Jenish\source\repos\MCPro\MCPro\bin\EntityFramework.SqlServer.dll
-C:\Users\Jenish\source\repos\MCPro\MCPro\bin\EntityFramework.SqlServer.xml

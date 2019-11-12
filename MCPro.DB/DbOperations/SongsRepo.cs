@@ -35,6 +35,7 @@ namespace MCPro.DB.DbOperations
         {
             using (var context = new MusicDBEntities())
             {
+
                 Songs s = context.Songs.Where(x => x.Id == id).FirstOrDefault();
 
                 SongsModel sm = new SongsModel()
