@@ -9,6 +9,7 @@ namespace MCPro.DB.DbOperations
 {
     public class SongsRepo
     {
+        //Add Song
         public int AddSong(SongsModel model)
         {
             using (var context = new MusicDBEntities())
@@ -27,6 +28,39 @@ namespace MCPro.DB.DbOperations
                 context.SaveChanges();
 
                 return sg.Id;
+            }
+        }
+
+        //Edit Song
+        public int EditSong(SongsModel model)
+        {
+            using (var context = new MusicDBEntities())
+            {
+                var sg = context.Songs.Where(x=>x.Id==model.Id).FirstOrDefault();
+
+                sg.S_name = model.S_name;
+                sg.R_date = model.R_date;
+                sg.Art_name = model.Art_name;
+                sg.Genre = model.Genre;
+                sg.Album_name = model.Album_name;
+                sg.Song_link = model.Song_link;
+
+                context.SaveChanges();
+
+                return sg.Id;
+            }
+        }
+
+        //delete song
+        public void DeleteSong(int id)
+        {
+            using (var context = new MusicDBEntities())
+            {
+                var rec = context.Songs.Find(id);
+
+                context.Songs.Remove(rec);
+
+                context.SaveChanges();
             }
         }
 

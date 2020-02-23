@@ -20,5 +20,18 @@ namespace MCPro.DB.DbOperations
                 Sid_arr = p.Sid_arr
             };
         }
+
+        public UsersModel UList(Users u)
+        {
+            return new UsersModel()
+            {
+                Id = u.Id,
+                Fname = u.Fname,
+                Lname = u.Lname,
+                Email = u.Email,
+                Pwd = u.Pwd,
+                Role = u.Role
+            };
+        }
     }
 }

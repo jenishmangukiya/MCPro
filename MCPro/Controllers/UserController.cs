@@ -122,6 +122,18 @@ namespace MCPro.Controllers
             }
         }
 
+        //Update Password
+        [HttpPost]
+        public void UpdatePassword(string id, string pwd)
+        {
+            using (var context = new MusicDBEntities())
+            {
+                var u = context.Users.Where(x => x.Email == id).FirstOrDefault();
+                u.Pwd = pwd;
+                context.SaveChanges();
+            }
+        }
+
         //Delete from Playlist
         public ActionResult DeletePL(int id)
         {

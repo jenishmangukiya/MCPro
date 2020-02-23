@@ -9,7 +9,7 @@ namespace MCPro.Models
     public class LoginModel
     {
         [Required]
-        [Display(Name = "Email Name")]
+        [Display(Name = "Email")]
         [MaxLength(50)]
         public string Email { get; set; }
 

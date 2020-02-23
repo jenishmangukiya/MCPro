@@ -17,9 +17,13 @@
                 @{
                     var link = Model.Song_link;
                     String[] id = link.Split('=');
-                    var Link = "https://img.youtube.com/vi/" + id[1] + "/0.jpg";
+
+                    if (id.Length > 1)
+                    {
+                        link = "https://img.youtube.com/vi/" + id[1] + "/0.jpg";
+                    }
                 }
-                <img src="@Link">
+                <img src="@link">
             </a>
         </div>
 
@@ -169,7 +173,11 @@
         <div class="col-xs-12">
             <div class="embed-responsive embed-responsive-16by9">
                 @{
-                    var eLink = "https://www.youtube.com/embed/" + id[1] + "/0.jpg";
+                    var eLink = " ";
+                    if(id.Length > 1)
+                    {
+                        eLink = "https://www.youtube.com/embed/" + id[1] + "/0.jpg";
+                    }
                 }
                 <iframe class="embed-responsive-item" src=@eLink></iframe>
             </div>

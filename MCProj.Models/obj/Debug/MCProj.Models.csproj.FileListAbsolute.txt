@@ -4,3 +4,17 @@ C:\Users\Jenish\source\repos\MCPro\MCProj.Models\obj\Debug\MCProj.Models.csproj.
 C:\Users\Jenish\source\repos\MCPro\MCProj.Models\obj\Debug\MCProj.Models.dll
 C:\Users\Jenish\source\repos\MCPro\MCProj.Models\obj\Debug\MCProj.Models.pdb
 C:\Users\Jenish\source\repos\MCPro\MCProj.Models\obj\Debug\MCProj.Models.csprojAssemblyReference.cache
+C:\Users\fenil\Documents\Project Files\MCPro-master\MCProj.Models\bin\Debug\MCProj.Models.dll
+C:\Users\fenil\Documents\Project Files\MCPro-master\MCProj.Models\bin\Debug\MCProj.Models.pdb
+C:\Users\fenil\Documents\Project Files\MCPro-master\MCProj.Models\obj\Debug\MCProj.Models.csprojAssemblyReference.cache
+C:\Users\fenil\Documents\Project Files\MCPro-master\MCProj.Models\obj\Debug\MCProj.Models.csproj.CoreCompileInputs.cache
+C:\Users\fenil\Documents\Project Files\MCPro-master\MCProj.Models\obj\Debug\MCProj.Models.dll
+C:\Users\fenil\Documents\Project Files\MCPro-master\MCProj.Models\obj\Debug\MCProj.Models.pdb
+D:\Conestoga_May-2019\Semester_2\PROG8060\Sprint_3\MCPro-master\MCProj.Models\bin\Debug\MCProj.Models.dll
+D:\Conestoga_May-2019\Semester_2\PROG8060\Sprint_3\MCPro-master\MCProj.Models\bin\Debug\MCProj.Models.pdb
+D:\Conestoga_May-2019\Semester_2\PROG8060\Sprint_3\MCPro-master\MCProj.Models\obj\Debug\MCProj.Models.dll
+D:\Conestoga_May-2019\Semester_2\PROG8060\Sprint_3\MCPro-master\MCProj.Models\obj\Debug\MCProj.Models.pdb
+C:\Users\mjeni\Downloads\Compressed\MCPro-master\MCPro-master\MCProj.Models\bin\Debug\MCProj.Models.dll
+C:\Users\mjeni\Downloads\Compressed\MCPro-master\MCPro-master\MCProj.Models\bin\Debug\MCProj.Models.pdb
+C:\Users\mjeni\Downloads\Compressed\MCPro-master\MCPro-master\MCProj.Models\obj\Debug\MCProj.Models.dll
+C:\Users\mjeni\Downloads\Compressed\MCPro-master\MCPro-master\MCProj.Models\obj\Debug\MCProj.Models.pdb

@@ -56,7 +56,7 @@ namespace MCPro.DB.DbOperations
         {
             using (var context = new MusicDBEntities())
             {
-                Users u = context.Users.Where(x => x.Email == email).FirstOrDefault();
+                Users u = context.Users.Where(x => x.Email==email).FirstOrDefault();
 
                 UsersModel um = new UsersModel()
                 {
@@ -67,6 +67,42 @@ namespace MCPro.DB.DbOperations
                 };
 
                 return um;
+            }
+        }
+
+        //Get user information
+        public UsersModel GetUserInfo(int id)
+        {
+            using (var context = new MusicDBEntities())
+            {
+                Users u = context.Users.Where(x => x.Id == id).FirstOrDefault();
+
+                UsersModel um = new UsersModel()
+                {
+                    Fname = u.Fname,
+                    Lname = u.Lname,
+                    Email = u.Email,
+                    Pwd = u.Pwd
+                };
+
+                return um;
+            }
+        }
+        //Edit User
+        public int EditUser(UsersModel model)
+        {
+            using (var context = new MusicDBEntities())
+            {
+                var us = context.Users.Where(x => x.Id == model.Id).FirstOrDefault();
+
+                us.Fname = model.Fname;
+                us.Lname = model.Lname;
+                us.Email = model.Email;
+                us.Pwd = model.Pwd;
+
+                context.SaveChanges();
+
+                return us.Id;
             }
         }
     }

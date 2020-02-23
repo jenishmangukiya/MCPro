@@ -7,7 +7,6 @@
       <Diagram DiagramId="60e1591abbaa4434a196ba4c792831cd" Name="Diagram1">
         <EntityTypeShape EntityType="MusicDBModel.Playlists" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="MusicDBModel.Songs" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="MusicDBModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
         <EntityTypeShape EntityType="MusicDBModel.Users" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
         <AssociationConnector Association="MusicDBModel.FK_Playlists_Playlists" ManuallyRouted="false" />
       </Diagram>
